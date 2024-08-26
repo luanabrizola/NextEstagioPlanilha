@@ -1,3 +1,12 @@
+:root{
+  --quanto: #194a2d;
+  --branco: #ffff;
+  --verde: #4fb977;
+  --verdeAqua: #009e8a;
+  --laranja: #ff5505
+}
+
+
 *{
   padding: 0;
   margin: 0;
