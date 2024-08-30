@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <div className={styles.Header}>
             <h1>
-                <span>quanto</span>sobra.
+                <span className={styles.quanto}>quanto</span>sobra.
             </h1>
         </div>
     )

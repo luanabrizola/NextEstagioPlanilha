@@ -1,0 +1,33 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.Main h1{
+    margin-bottom: 10px;
+}
+
+.descricao{
+    padding: 15px;
+}
+
+.descricao h1{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.lista li{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}

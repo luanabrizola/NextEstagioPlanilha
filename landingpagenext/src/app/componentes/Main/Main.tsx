@@ -14,11 +14,13 @@ export default function Main() {
                 allowFullScreen>
             </iframe>
             <div className={styles.descricao}>
-                <h2>Sobre a planilha</h2>
-                <ul>
-                    <li>Organize sua empresa</li>
-                    <li>Veja quais recebimentos já foram realizados</li>
-                    <li>Saiba quais contas você já pagou</li>
+                <h1>Sobre a planilha</h1>
+                <ul className={styles.lista}>
+                    <li className={styles.bold}>Organize sua empresa</li>
+                    <li>Acompanhe o andamento de movimentações financeiras</li>
+                    <li className={styles.bold}>Veja quais recebimentos já foram realizados</li>
+                    <li>Saiba quais contas você já recebeu</li>
+                    <li className={styles.bold}>Saiba quais contas você já pagou</li>
                     <li>Acompanhe o pagamento de suas contas</li>
                 </ul>
             </div>

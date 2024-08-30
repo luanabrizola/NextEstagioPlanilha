@@ -1,0 +1,10 @@
+.Header{
+    background-color: var(--verde);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+}
+
+.quanto{
+    color: var(--quanto);
+}
