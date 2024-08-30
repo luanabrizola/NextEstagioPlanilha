@@ -1,0 +1,16 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    background-color: var(--branco);
+    margin-bottom: 10px;
+    color: black;
+    border: none;
+}
+
+.botao{
+    background-color: var(--laranja);
+    border: none;
+}
