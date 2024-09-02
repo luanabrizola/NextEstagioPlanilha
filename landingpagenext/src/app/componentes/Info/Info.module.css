@@ -1,0 +1,15 @@
+.Info{
+    width: 400px;
+}
+
+.Info span{
+    font-weight: bold;
+}
+
+.gmail{
+    color: #000;
+}
+
+.Info p{
+    margin-bottom: 10px;
+}

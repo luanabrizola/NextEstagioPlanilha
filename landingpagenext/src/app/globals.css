@@ -14,6 +14,5 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto";
-  background-color: var(--verde);
   color: var(--branco);
 }

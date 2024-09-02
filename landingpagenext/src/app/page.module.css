@@ -6,3 +6,11 @@
 .mainContent, .formEInfoContent{
     flex: 1;
 }
+
+.Home{
+    background-color: var(--verde);
+}
+
+.formEInfoContent{
+    margin-left: 100px;
+}

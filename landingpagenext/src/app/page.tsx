@@ -6,7 +6,7 @@ import styles from "./page.module.css"
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.Home}>
       <Header />
       <main className={styles.mainContainer}>
         <div className={styles.mainContent}>
@@ -14,6 +14,7 @@ export default function Home() {
         </div>
         <div className={styles.formEInfoContent}>
           <Form />
+          <Info />
         </div>
         
       </main>

@@ -1,18 +1,22 @@
 import styles from "./Info.module.css"
 
-export default function Form() {
+export default function Info() {
 
     return (
-        <div className={styles.Footer}>
+        <div className={styles.Info}>
             <h3>Importante</h3>
             <p>
-                O link para você baixar o conteúdo será enviado para o seu e-mail. Isso pode levar até 30 minutos.
+                O link para você baixar o conteúdo será enviado para o seu e-mail. <span>Isso pode levar até 30 minutos.</span>
             </p>
             <p>
-                Caso você não receba em sua caixa de entrada, cheque sua caixa de SPAM.
+                Caso você não receba em sua caixa de entrada, <span>cheque sua caixa de SPAM.</span>
             </p>
             <p>
-                Este material está sendo enviado para você através de SMTP, então ele pode acabar sendo direcionado para a sua caixa de SPAM em algumas contas de e-mail como Gmail, Outlook, Yahoo, etc.
+                Para evitar que o e-mail seja enviado para sua caixa de SPAM, adicione este endereço ao seus contatos
+                cassio.muller@quantosobra.com.br
+            </p>
+            <p>
+                Para ver como adicionar contatos no seu e-mail <span className={styles.gmail}>Gmail, Outook, Yahoo</span>
             </p>
         </div>
     )
