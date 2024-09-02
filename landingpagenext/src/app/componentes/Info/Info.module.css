@@ -1,5 +1,6 @@
 .Info{
     width: 400px;
+    margin-top: 20px;
 }
 
 .Info span{
@@ -11,5 +12,5 @@
 }
 
 .Info p{
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
